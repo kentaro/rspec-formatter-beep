@@ -1,4 +1,3 @@
-require 'thread'
 require "rspec/formatter/beep/version"
 require "rspec/core/formatters/progress_formatter"
 

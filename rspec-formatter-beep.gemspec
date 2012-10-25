@@ -1,11 +1,7 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rspec/formatter/beep/version'
-
 Gem::Specification.new do |gem|
   gem.name          = "rspec-formatter-beep"
-  gem.version       = RSpec::Formatter::Beep::VERSION
+  gem.version       = "0.0.1"
   gem.authors       = ["Kentaro Kuribayashi"]
   gem.email         = ["kentarok@gmail.com"]
   gem.description   = %q{Beep when spec fails.}
